@@ -1,10 +1,10 @@
 body {
   font-family: Inter, sans-serif;
-  margin: 0;
+  margin: 0 auto;
 }
 
-.header,
-.hero {
+#header,
+#hero {
   color: #f9faf8;
   background-color: #1f2937;
   padding: 16px 120px;
@@ -13,49 +13,49 @@ body {
   justify-content: space-between;
 }
 
-.header .logo {
+#header .logo {
   font-size: 16px;
   font-weight: 600;
 }
 
-.header .nav {
+#header .nav {
   display: flex;
   gap: 24px;
 }
-.header a:link, .header a:visited {
+#header a:link, #header a:visited {
   color: #e5e7eb;
   text-decoration: none;
   font-size: 14px;
 }
 
-.hero {
+#hero {
   gap: 24px;
   padding-top: 40px;
   padding-bottom: 80px;
 }
 
-.hero p {
+#hero p {
   margin: 0;
   padding: 6px 0 6px 0;
 }
 
-.hero .child {
+#hero .child {
   flex: 1;
 }
 
-.hero .title {
+#hero .title {
   flex: 0 1 auto;
   font-size: 36px;
   font-weight: 800;
 }
 
-.hero .subtext {
+#hero .subtext {
   color: #e5e7eb;
   font-size: 14px;
   font-weight: 300;
 }
 
-.hero .image {
+#hero .image {
   padding: 80px;
   color: #e5e7eb;
   background-color: #6d747d;
@@ -65,41 +65,41 @@ body {
   align-self: stretch;
 }
 
-.hero button {
+#hero button {
   margin: 8px 0 8px 0;
   background-color: #3882f6;
   color: #fff;
   padding: 6px 24px;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
-.info {
+#info {
     padding: 24px;
 }
-.info .title {
+#info .title {
   color: #1f2937;
   font-size: 32px;
   font-weight: 800;
 }
 
-.info p {
+#info p {
   text-align: center;
 }
 
-.info p.subtext {
+#info p.subtext {
     font-size: 14px;
 }
 
-.info .block {
+#info .block {
   display: flex;
   justify-content: space-between;
   gap: 24px;
   padding: 16px 160px;
 }
 
-.info .block .child {
+#info .block .child {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -113,19 +113,65 @@ body {
   height: 150px;
 }
 
-.quote {
+#quote {
     background-color: #e5e7eb;
     padding: 32px 160px;
     color: #1f2937;
 }
 
-.quote .text {
+#quote .text {
     font-size: 30px;
     font-style: italic;
     font-weight: 200;
 }
 
-.quote .author {
+#quote .author {
     text-align: right;
     font-weight: bold;
+}
+
+#cta {
+    padding: 80px 160px;
+}
+
+#cta .container {
+    background-color: #3882f6;
+    padding: 24px 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cta .container p {
+    margin: 4px;
+}
+
+#cta .container .title {
+    color: #fff;
+    font-weight: bold;
+}
+
+#cta .container .subtext {
+    color: #DEE4EB;
+    font-size: 12px;
+}
+
+#cta button {
+    margin: 8px 0 8px 0;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 6px 24px;
+    border: 1.5px solid #f9faf8;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+#footer {
+    background-color: #1f2937;
+    color: #DEE4EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    height: 80px;
 }
