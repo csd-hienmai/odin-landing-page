@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Inter, sans-serif;
   margin: 0;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .header .logo {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -25,7 +25,7 @@ body {
 .header a:link, .header a:visited {
   color: #e5e7eb;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .hero {
@@ -36,7 +36,7 @@ body {
 
 .hero p {
   margin: 0;
-  padding: 8px 0 8px 0;
+  padding: 6px 0 6px 0;
 }
 
 .hero .child {
@@ -45,7 +45,7 @@ body {
 
 .hero .title {
   flex: 0 1 auto;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 800;
 }
 
@@ -75,6 +75,9 @@ body {
   cursor: pointer;
 }
 
+.info {
+    padding: 24px;
+}
 .info .title {
   color: #1f2937;
   font-size: 32px;
@@ -83,6 +86,10 @@ body {
 
 .info p {
   text-align: center;
+}
+
+.info p.subtext {
+    font-size: 14px;
 }
 
 .info .block {
@@ -101,7 +108,24 @@ body {
 
 .illustration {
   align-items: center;
-  height: 150px;
-  border: 3px solid #3882f6;
   border-radius: 8px;
+  border: 3px solid #3882f6;
+  height: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 32px 160px;
+    color: #1f2937;
+}
+
+.quote .text {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote .author {
+    text-align: right;
+    font-weight: bold;
 }
